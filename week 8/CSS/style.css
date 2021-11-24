@@ -1,0 +1,24 @@
+img{
+  width: 25%;
+  float: left;
+}
+
+p{
+  margin-left: 26%;
+}
+
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div{
+  float: left;
+  width: 46%;
+  text-align: center;
+  background-color: pink;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 2%;
+}
